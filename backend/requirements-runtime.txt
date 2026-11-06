@@ -1,0 +1,4 @@
+# Optional local execution dependencies for scripts/runtime_smoke.py.
+# The API itself only builds and validates notebooks; it does not train models.
+-r requirements.txt
+tensorflow>=2.15,<2.20

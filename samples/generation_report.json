@@ -1,0 +1,86 @@
+{
+  "generated_at": "2026-11-05T05:32:20.652599+00:00",
+  "source": "deterministic-template",
+  "samples": [
+    {
+      "filename": "dcgan_fashion_mnist.ipynb",
+      "model": "dcgan",
+      "model_label": "DCGAN",
+      "dataset": "fashion_mnist",
+      "dataset_label": "Fashion-MNIST",
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/zalandoresearch/fashion-mnist/blob/master/LICENSE",
+        "attribution": "Zalando SE",
+        "commercial_use": true,
+        "notes": "Permissive license; retain the copyright and permission notice."
+      },
+      "settings": {
+        "batch_size": 64,
+        "epochs": 5,
+        "seed": 42
+      },
+      "cells": 16,
+      "code_cells": 8,
+      "python_lines": 262,
+      "validation": {
+        "passed": true,
+        "checks": {
+          "syntax": "passed",
+          "safety": "passed",
+          "tf2": "passed",
+          "structure": "passed",
+          "license": "passed"
+        },
+        "errors": [],
+        "warnings": [],
+        "stats": {
+          "cells": 16,
+          "code_cells": 8,
+          "python_lines": 262
+        }
+      },
+      "bytes": 20434
+    },
+    {
+      "filename": "char_rnn_tiny_shakespeare.ipynb",
+      "model": "char_rnn",
+      "model_label": "char-RNN",
+      "dataset": "tiny_shakespeare",
+      "dataset_label": "Tiny Shakespeare",
+      "license": {
+        "name": "Public Domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "attribution": "William Shakespeare (public-domain works)",
+        "commercial_use": true,
+        "notes": "The corpus is derived from public-domain Shakespeare plays. No additional restrictions are asserted by the mirror."
+      },
+      "settings": {
+        "batch_size": 64,
+        "epochs": 5,
+        "seed": 42
+      },
+      "cells": 13,
+      "code_cells": 6,
+      "python_lines": 147,
+      "validation": {
+        "passed": true,
+        "checks": {
+          "syntax": "passed",
+          "safety": "passed",
+          "tf2": "passed",
+          "structure": "passed",
+          "license": "passed"
+        },
+        "errors": [],
+        "warnings": [],
+        "stats": {
+          "cells": 13,
+          "code_cells": 6,
+          "python_lines": 147
+        }
+      },
+      "bytes": 13416
+    }
+  ]
+}
